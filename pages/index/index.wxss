@@ -1,0 +1,19 @@
+.container{
+  padding: 40rpx 20rpx;
+}
+.item{
+  width: 310rpx;
+  height: 310rpx;
+  border: 1rpx solid black;
+  background-color: red;
+  box-sizing: border-box;
+  margin: 7rpx 7rpx;
+  float: left;
+}
+.item:nth-of-type(2n){
+  margin-right: 0rpx;
+}
+.time{
+  text-align: center;
+  font-size: 40rpx;
+}

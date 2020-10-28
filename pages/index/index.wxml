@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="row" wx:for="{{bigarr}}" wx:key="index" wx:for-item="smallarr1">
+		<view class="item" wx:for="{{smallarr1}}" wx:key="index" style="opacity:{{item==0 ?itemopacity:1}};  width: {{itemwidth}}px; height: {{itemwidth}}px;  background-color: {{itemcolor}};}}" bindtap="click" data-num="{{item}}">{{item}}</view>	
+	</view> 
+</view> 
+
+<view class="time">
+<text>游戏时间为{{gametime}}秒</text>
+<text> 你的得分{{fenshu}}</text>
+</view> 
